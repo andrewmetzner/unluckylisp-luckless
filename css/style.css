@@ -1,0 +1,244 @@
+/* unluckylisp — dreamsongs.com aesthetic
+   Georgia serif body · monospace chrome · dark · flat · web 1.0 */
+
+:root {
+  --bg:      #111111;
+  --bg2:     #1a1a1a;
+  --bg3:     #222222;
+  --fg:      #dedad4;
+  --fg-dim:  #888888;
+  --purple:  #4e1c61;
+  --purple2: #7a3ca0;
+  --red:     #bb2200;
+  --link:    #7799dd;
+  --border:  #2e2e2e;
+  --serif:   Georgia, 'Times New Roman', serif;
+  --mono:    'Courier New', Courier, monospace;
+  --max-w:   640px;
+  --pad:     1.1rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+}
+
+body {
+  color: var(--fg);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.75;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  min-height: 100vh;
+  word-break: break-word;
+}
+
+/* ── links ── */
+a         { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+a:visited { color: var(--link); }
+a:hover   { color: var(--red); }
+
+/* ── pixel-frame panel ── */
+.pixel-frame {
+  border: 2px solid var(--purple);
+  min-height: 100vh;
+}
+
+/* ── site header / logo ── */
+.main-header {
+  border-bottom: 1px solid var(--purple);
+  padding: 0;
+  margin: 0;
+}
+
+.main-header .header-logo {
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: url('/image/lambdae.png') no-repeat center / contain;
+}
+
+/* ── main content area ── */
+main {
+  padding: var(--pad);
+}
+
+/* ── headings ── */
+h1, h2, h3, h4 {
+  font-family: var(--mono);
+  color: var(--fg);
+  line-height: 1.3;
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: var(--pad);
+  padding-bottom: 0.3rem;
+  margin-top: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 { font-size: 0.9rem; padding-left: var(--pad); }
+
+/* ── paragraphs + flow ── */
+p {
+  margin: 0 0 1rem;
+  padding: 0 var(--pad);
+}
+
+/* sections inside pixel-frame that need side padding */
+.outline-text-2,
+.outline-text-3 {
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+}
+
+/* ── hr ── */
+hr {
+  border: 0;
+  border-top: 1px solid var(--purple);
+  margin: 0;
+}
+
+/* ── index page sections ── */
+.index-section {
+  padding: 0.6rem var(--pad);
+}
+
+/* ── prominent action link (e.g. Play Rogue) ── */
+a.action-link {
+  font-family: var(--mono);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── lists ── */
+ul.link-list {
+  list-style-image: url('/image/redball.gif');
+  margin: 0.3rem 0 0.5rem 2.2rem;
+  padding: 0;
+}
+
+ul.link-list li {
+  padding-left: 0.3rem;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+ul:not(.link-list),
+.org-ul {
+  list-style-type: disc;
+  margin: 0.5rem 0 0.5rem 1.2rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--purple);
+}
+
+ul:not(.link-list) ul {
+  border-left: 1px dashed var(--border);
+  margin-left: 0.75rem;
+  list-style-type: circle;
+}
+
+li { margin-bottom: 0.25rem; }
+
+/* ── inline ── */
+small {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--fg-dim);
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  background: var(--bg3);
+  border: 1px solid var(--purple);
+  padding: 1px 5px;
+  word-break: break-all;
+}
+
+/* ── code blocks ── */
+pre.example {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  background: var(--bg2);
+  border-left: 3px solid var(--purple);
+  padding: 0.8rem var(--pad);
+  overflow-x: auto;
+  white-space: pre;
+  margin: 0.75rem 0;
+}
+
+/* ── images ── */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+/* ── disclaimer / callout ── */
+.disclaimer {
+  background: var(--bg2);
+  border-left: 3px solid #aaaa00;
+  padding: 0.8rem var(--pad) !important;
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+.disclaimer p  { padding: 0; margin: 0 0 0.5rem; }
+
+.disclaimer code {
+  display: inline-block;
+  padding: 2px 6px;
+  margin-top: 3px;
+  word-break: break-all;
+}
+
+/* ── postamble / footer ── */
+#postamble,
+.status {
+  border-top: 1px solid var(--purple);
+  padding: 1rem var(--pad) 1.4rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--fg-dim);
+  text-align: center;
+}
+
+#postamble::before,
+.status::before {
+  content: "";
+  display: block;
+  height: 26px;
+  margin: 0 auto 0.5rem;
+  background: url('/image/wiz.png') no-repeat center / contain;
+}
+
+#postamble p, #postamble a,
+.status p,    .status a {
+  color: var(--fg-dim);
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+#postamble a:hover,
+.status a:hover { color: var(--link); text-decoration: underline; }
+
+/* ── mobile (phones) ── */
+@media (max-width: 660px) {
+  body          { font-size: 16px; }
+  .pixel-frame  { border-left: none; border-right: none; }
+  pre.example   { font-size: 0.73rem; }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="/blog/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="alternate" type="application/atom+xml" href="/blog/index.atom" title="wizard book (atom)">
+
+    <meta name="fediverse:creator" content="@wizardbook@mastodon.social">
+    <link rel="me" href="https://mastodon.social/@wizardbook" />
+
+    <meta property="og:title" content="unluckylisp">
+    <meta property="og:description" content="A site about wizards and programming.">
+    <meta property="og:url" content="https://unluckylisp.com/blog/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="unluckylisp">
+    <meta name="twitter:description" content="A site about wizards and programming.">
+
+
+  <title>Reflections during Yuletide -- Wizard Book</title>
+  
+</head>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<body>
+<div class="site-frame">
+  <header class="blog-header">
+    <div class="blog-title"><a href="/blog/">wizard blog</a></div>
+    <nav class="blog-nav">
+      <a href="/blog/">posts</a><span class="sep"> · </span><a href="/blog/tags">tags</a><span class="sep"> · </span><a href="/blog/archive">archive</a><span class="sep"> · </span><a href="/blog/index.atom">feed</a><span class="sep"> · </span><a href="/">λ home</a>
+    </nav>
+  </header>
+
+<div class="page-wrapper">
+<p><small><time datetime="2025-12-25T10:51:28-05:00">2025-12-25 :: 10:51 [UTC -05:00]</time></small><br>
+
+<strong><u>Reflections during Yuletide</u></strong></p>
+
+<div class="lock-gate" id="lock-reflection-2" data-hash="ed20c13a47e6becb1eaf82af2b75f7b1edf0facecca2421090eed861cacec57b" data-b64="PHA+Ck9uZSBwaHJhc2UgdGhhdCBhcHBlYXJzIHZlcnkgb2Z0ZW4gaW4gbXkgbWluZCwgYXMgSSBzaXQgb3Igc3RhbmQsIHdhdGNoIGFuZCBsaXN0ZW46IDxpPiJBIHN0cm9uZyBkZXNpcmUgdG8ga25vdyBpZiB0aGUgd29ybGQgaGFzIGEgd2lsbCBvZiBpdHMgb3duLCB3aGF0IHdvdWxkIGl0IHRoZW4gY2hvb3NlPyI8L2k+IEl0IGlzIG15IGJlbGllZiBhbm90aGVyIHdheSB0byBleHByZXNzIHRoaXMgcGxhaW5seSBpczogPGk+IkxldHRpbmcgZ28uIjwvaT4gSXMgaXQgdGhlbiB0aGF0IGRlc2lyZSBjYW4gYmUgcHVyaWZpZWQgYnkgc3Bpcml0dWFsIHByaW5jaXBsZXMsIG9yIGlzIGl0IGxldHRpbmcgZ28gb2YgZGVzaXJlIHRoYXQgd2UgZG8gdGhyb3VnaCBzcGlyaXR1YWwgcHJpbmNpcGxlcz8gUGVyc29uYWxseSwgSSBkb24ndCBmaW5kIGl0IGFwcGVhbGluZyB0byBiZWNvbWUgcHVyZSBvciByZXR1cm4gdG8gYSBzdGF0ZSB0aGF0IHNlZW1pbmdseSBuZXZlciB3YXMgdGhlIGNhc2UuIEF0IHdoYXQgcG9pbnQsIGlzIHRoZSBuYXR1cmUgb2YgYW55IGJlaW5nIG9yIGV4aXN0ZW5jZSA8aT4icHVyZSI8L2k+PyAoaW4gdGVybXMgb3V0c2lkZSBvZiBTY2llbmNlLCBvciBjaGVtaXN0cnkgaW4gcGFydGljdWxhciwgZm9yIHdoaWNoIEkgYW0gb2J2aW91c2x5IG5vdCBwcm9mb3VuZGx5IGFjcXVhaW50ZWQgdW5sZXNzIHRoZXJlIGFyZSBudW1iZXJzIGludm9sdmVkKQo8L3A+Cgo8cD4KV2hlbiB0aGUgbWluZCBpcyBub3Qgc3RpbGwgZW5vdWdoIHRvIHNpdCwgbGlzdGVuLCBhbmQgd2F0Y2ggZm9yIHJlc3VsdHMsIEkgZm91bmQgdGhhdCB3YWxraW5nIHRoaXMgeWVhciB3YXMgdGhlIG1vc3QgcHJvZm91bmQgaW4gY2FsbWluZyB0aGUgbWluZC4gSSBmb3VuZCBlYWNoIHN0ZXAgdG8gYmUgbWVkaXRhdGl2ZSBpbiBpdHNlbGYuIFdhbGtpbmcgdW50aWwgSSBoYXZlIGV4aGF1c3RlZCBteXNlbGYgb2YgdGhlIGluc2FuZSB0aG91Z2h0cyBJIGhhdmUuIFdhbGtpbmcgdW50aWwgSSd2ZSBzdG9wcGVkIGJhbmdpbmcgbXkgaGVhZCBhZ2FpbnN0IHRoZSB3YWxsLCB3aGlsZSBleHBlY3RpbmcgbXlzZWxmIG5vdCB0byBibGVlZC4KPC9wPgoKPHA+CkEgcmVmbGVjdGlvbiBhZnRlciBteSBmaXJzdCBwaXBlcmluZyBpbiBhIGxvbmcgdGltZTogSXMgbGl2aW5nIGFzIGEgTkVFVCByZWFsbHkgcHJhY3RpY2FsIGNvbXBhcmVkIHRvIGJlaW5nIGluY2FyY2VyYXRlZCBpbiB0aGUgVW5pdGVkIFN0YXRlcz8gTkVFVHMgc3RydWdnbGUgdG8gYWZmb3JkIGEgbG90IG9mIGJhc2ljIG5lZWRzIGFuZCBldmVuIGZ1bGZpbGxpbmcgdGhlaXIgZGVzaXJlcyB3aXRoIHNhdmluZyBtb25leS4gSW5jYXJjZXJhdGVkLCBpbiBtb3N0IHN0YXRlcywgaGF2ZSBzaGVsdGVyIGFuZCBmb29kLCBhbmQgYXJlIGFmZm9yZGVkIHRoZSBhYmlsaXR5IHRvIHB1cmNoYXNlIGVudGVydGFpbm1lbnQgc3lzdGVtcyAoVFYgYW5kIHZpZGVvIGdhbWUgY29uc29sZXMsIGFzIHNvbWUgZXhhbXBsZXMpLiBJdCBzZWVtcyB0aGF0IHRoZXJlIGlzIGEgbGFjayBvZiBsb2dpYywgYnV0IHRoZSBjYXNlIGluIHBvaW50OiBLZWVwIHRoZSBpbmNhcmNlcmF0ZWQgY29tZm9ydGFibGUgaW4gb3JkZXIgdG8gY29udGludWUgdGhlIHJldm9sdmluZyBkb29yLiBJIHdvdWxkIG5vdCBlbmNvdXJhZ2UgYSBORUVUIHRvIGJlY29tZSBhIHByaXNvbmVyLCBidXQgaWYgdGhleSBkbyBzbzogaXMgaXQgbm90IGxvZ2ljYWwgdG8gYXNzdW1lIHRoYXQgdGhleSBjb3VsZCBhZGp1c3QgdG8gc3VjaCBhIGxpZmVzdHlsZSBhbmQgaW4gdHVybiBmaWd1cmUgb3V0IHRoYXQgdGhpcyBzYXRpc2ZpZXMgdGhlaXIgZGVzaXJlcyBiZXR0ZXIgKGluIG1hbnkgd2F5cyk/CjwvcD4KCjxwPgpQcmlzb24gbGlmZSBpcyB2ZXJ5IHNpbXBsZSBhbmQgZWFzeSwgYW5kIG1lcmdpbmcgaW50byB0aGUgY3VsdHVyZSBkb2Vzbid0IHRha2UgdmVyeSBsb25nLiBJdCB0YWtlcyBhIGxvdCBvZiBlbmVyZ3kgYW5kIHRpbWUgZm9yIG1lIHRvIG1ha2UgYSBsaXZpbmcgYW5kIGEgcGxhY2Ugb3V0IGhlcmUsIGFuZCB0byB0aGUgcG9pbnQgdGhhdCBJIGRvbid0IGhhdmUgYSBsb3Qgb2YgdGltZSB0byBlbmpveSBteXNlbGYgb3IgZG8gYSBsb3QgdGhhdCBJJ2QgcHJlZmVyIHRvIGRvLiBJbiBwcmlzb24sIEkgd29ya2VkLCBlZHVjYXRlZCwgcmVhZCwgYW5kIGFsc28gaGFkIGNvcGlvdXMgYW1vdW50cyBvZiB0aW1lIHRvIGV4ZXJjaXNlLCBwbGF5IHNwb3J0cywgd2F0Y2ggc2hvd3MsIHBsYXkgdmlkeWEsIHBsYXkgTWluaXMgZ2FtZXMgKGJhdHRsZSB0ZWNoLCB3YXJoYW1tZXIpLCB0YWJsZSB0b3AgUlBHLCBhbmQgb3RoZXIgY2xhc3NpYyBjYXJkIGFuZCBib2FyZCBnYW1lcy4gKEkgZXZlbiBoYWQgdGltZSB0byBtYWtlIG1pbmlzIG91dCBvZiBlcmFzZXJzLCB0eWxlbm9sLCBwYXBlcjsgdGhlcmUgd2FzIGxvdHMgb2YgdGltZSBmb3IgY3JlYXRpdml0eSBhcyB3ZWxsIGFzIGVudGVydGFpbm1lbnQuKSBJIHdvdWxkIHN0aWxsIHNheSBteSB3b3JzdCBkYXkgb3V0IGhlcmUgaXMgYmV0dGVyIHRoYW4gbXkgYmVzdCBkYXkgaW4gdGhlcmUuCjwvcD4KCjxwPgpLbm93aW5nIHRoZSBtb3RpdmF0aW9uIG9mIHBlb3BsZSBpcyBhbiBpbXBvcnRhbnQgdHJhaXQgYW5kL29yIHNraWxsIHRvIGhhdmUuIEkgd2FzIHBvaW50ZWQgb3V0IHRoYXQgbXkgdHJ1ZSBkZXNpcmUgaXMgdG8gaGF2ZSBmcmVlZG9tOyBub3QgdG8gYmUgdGllZCBkb3duIHRvIHNvbWV0aGluZy4gSSBsYWNrIGNhcmUgZm9yIHdoYXQgbW9zdCBwZW9wbGUgdGhpbmsuIEkgdGhpbmsgdGhhdCBmcmVlZG9tIHJlYWxseSBpcyBhIGZsZWV0aW5nIGNvbmNlcHQgdGhvdWdoLiBFc3BlY2lhbGx5IHNlZWtpbmcgb3V0IGV4dGVybmFsIGZyZWVkb20gb3Igc29tZSBzb3J0IG9mIHNvY2lhbCBjb250cmFjdCB0aGF0IGFkaGVyZXMgdG8geW91ciBvd24gY29tZm9ydGFiaWxpdHkgaW4gdGhlIG5hbWVzIG9mIDxpPiJmcmVlZG9tIjwvaT4uIFRoZW4gd2hhdCBpcyBmcmVlZG9tPyBTb21ldGltZXMgZm9yIG1lLCB3aGVuIEkgYWRtaXQgb3Igc2hvdXQgc3VycmVuZGVyLiBBZG1pdHRpbmcgdGhlIGxhY2sgb2YgcG93ZXIgYW5kIHRoYXQgSSB0cnVseSBoYXZlIHplcm8gY29udHJvbC4gVGhlc2UgYXJlLCB3aGF0IEkndmUgZm91bmQsIHRvIGJlIG1vcmUgZnJlZWluZyB0aGFuIHJlbGVhc2UgZnJvbSBhbiBpbnN0aXR1dGlvbiBvciBhbnl0aGluZyBzb3J0IG9mIGV4dGVybmFsIGV4cHJlc3Npb24gb2YgPGk+ImxpYmVydHkiPC9pPi4KPC9wPgo=">
+<p>this post is password protected.</p>
+<input type="password" id="lock-pw-reflection-2" placeholder="password">
+<button onclick="gikLock.unlock('reflection-2')">unlock</button>
+<p class="lock-err" id="lock-err-reflection-2"></p>
+<script>(function(){document.getElementById('lock-pw-reflection-2').addEventListener('keydown',function(e){if(e.key==='Enter')gikLock.unlock('reflection-2');});})();</script>
+</div>
+<script>var gikLock={unlock:async function(id){
+var el=document.getElementById('lock-'+id);
+var pw=document.getElementById('lock-pw-'+id).value;
+var err=document.getElementById('lock-err-'+id);
+var buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(pw));
+var hex=Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+if(hex===el.dataset.hash){var d=document.createElement('div');d.innerHTML=atob(el.dataset.b64);el.replaceWith(...Array.from(d.childNodes));}
+else{err.textContent='wrong password.';}}};</script>
+
+</div>
+<div id="postamble" class="status">
+<p class="postamble"><a href="/">unluckylisp.com</a> · <a href="https://www.gnu.org/software/emacs/">Emacs</a> 30.2 (<a href="https://orgmode.org">Org</a> mode 9.7.11)</p>
+</div>
+</div><!-- .site-frame -->
+</body>
+</html>
