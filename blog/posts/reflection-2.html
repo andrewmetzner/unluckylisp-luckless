@@ -65,7 +65,7 @@ var pw=document.getElementById('lock-pw-'+id).value;
 var err=document.getElementById('lock-err-'+id);
 var buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(pw));
 var hex=Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
-if(hex===el.dataset.hash){var d=document.createElement('div');d.innerHTML=atob(el.dataset.b64);el.replaceWith(...Array.from(d.childNodes));}
+if(hex===el.dataset.hash){var d=document.createElement('div');var bytes=Uint8Array.from(atob(el.dataset.b64),function(c){return c.charCodeAt(0);});d.innerHTML=new TextDecoder('utf-8').decode(bytes);el.replaceWith(...Array.from(d.childNodes));}
 else{err.textContent='wrong password.';}}};</script>
 
 </div>
