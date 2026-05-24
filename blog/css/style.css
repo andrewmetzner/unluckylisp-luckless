@@ -132,13 +132,15 @@ h3 { font-size: 0.9rem; color: var(--fg-dim); }
 
 /* ── post list items ── */
 .post-item {
+  position: relative;
   padding: 0.5rem 0.75rem;
   margin-bottom: 0.6rem;
   border-left: 3px solid var(--purple);
   background: var(--bg2);
+  cursor: pointer;
 }
 
-.post-item:hover { border-left-color: var(--purple2); }
+.post-item:hover { border-left-color: var(--purple2); background: var(--bg3); }
 
 .post-item small {
   display: block;
@@ -154,10 +156,14 @@ h3 { font-size: 0.9rem; color: var(--fg-dim); }
   font-family: var(--serif);
 }
 
-.post-item a:hover {
-  color: var(--link);
-  text-decoration: underline;
+/* stretch the link to cover the entire post-item box */
+.post-item a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
+
+.post-item:hover a { color: var(--link); }
 
 /* ── tag list ── */
 .post-itemtag {
