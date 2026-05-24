@@ -12,7 +12,7 @@
   --red:     #bb2200;
   --link:    #7799dd;
   --border:  #2e2e2e;
-  --serif:   'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --sans:    system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
   --mono:    ui-monospace, Menlo, Consolas, 'Cascadia Code', 'Source Code Pro', monospace;
   --max-w:   640px;
   --pad:     1.1rem;
@@ -28,8 +28,8 @@ html, body {
 
 body {
   color: var(--fg);
-  font-family: var(--serif);
-  font-size: 18px;
+  font-family: var(--sans);
+  font-size: 16px;
   line-height: 1.75;
   max-width: var(--max-w);
   margin: 0 auto;
@@ -237,7 +237,7 @@ img {
 
 /* ── mobile (phones) ── */
 @media (max-width: 660px) {
-  body          { font-size: 16px; }
+  body          { font-size: 15px; }
   .pixel-frame  { border-left: none; border-right: none; }
   pre.example   { font-size: 0.73rem; }
 }

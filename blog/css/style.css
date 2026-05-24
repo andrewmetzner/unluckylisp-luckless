@@ -12,7 +12,7 @@
   --red:     #bb2200;
   --link:    #88aaee;
   --border:  #333333;
-  --serif:   'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --sans:    system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
   --mono:    ui-monospace, Menlo, Consolas, 'Cascadia Code', 'Source Code Pro', monospace;
   --max-w:   660px;
 }
@@ -29,8 +29,8 @@ html {
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: var(--serif);
-  font-size: 17px;
+  font-family: var(--sans);
+  font-size: 16px;
   line-height: 1.7;
   margin: 0;
   min-height: 100vh;
@@ -153,7 +153,7 @@ h3 { font-size: 0.9rem; color: var(--fg-dim); }
 .post-item a {
   color: var(--fg);
   text-decoration: none;
-  font-family: var(--serif);
+  font-family: var(--sans);
 }
 
 /* stretch the link to cover the entire post-item box */
@@ -222,7 +222,7 @@ h3 { font-size: 0.9rem; color: var(--fg-dim); }
 }
 
 .post-header-block strong {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.15rem;
 }
 
@@ -387,7 +387,7 @@ img {
 
 /* ── mobile ── */
 @media (max-width: 680px) {
-  body { font-size: 16px; }
+  body { font-size: 15px; }
   .site-frame { border-left: none; border-right: none; }
   .org-src-container pre { font-size: 0.75rem; }
   .blog-header { padding: 0.6rem 0.75rem; }
