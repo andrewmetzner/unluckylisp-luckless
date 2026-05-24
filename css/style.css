@@ -12,8 +12,8 @@
   --red:     #bb2200;
   --link:    #7799dd;
   --border:  #2e2e2e;
-  --serif:   Georgia, 'Times New Roman', serif;
-  --mono:    'Courier New', Courier, monospace;
+  --serif:   'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --mono:    ui-monospace, Menlo, Consolas, 'Cascadia Code', 'Source Code Pro', monospace;
   --max-w:   640px;
   --pad:     1.1rem;
 }
