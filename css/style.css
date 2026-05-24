@@ -45,7 +45,6 @@ a:hover   { color: var(--red); }
 /* ── pixel-frame panel ── */
 .pixel-frame {
   border: 2px solid var(--purple);
-  min-height: 100vh;
 }
 
 /* ── site header / logo ── */
