@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <id>https://unluckylisp.com/blog/</id>
 <title>blog atom feed</title>
-<updated>2026-06-16T02:54:45+00:00</updated>
+<updated>2026-06-16T21:28:12+00:00</updated>
 <generator>https://github.com/luckless-wizard/ganzu-gikoru</generator>
 <author>
   <name>wizard</name>
@@ -50,9 +50,9 @@ I am a longtime Linux user, and I have tried many flavours over the years. I hav
 <p>
 Welcoming macOS and Apple products to my workflow has been a big part of how I can live in the world of Unix/like and still get on with my life. While macOS is proprietary, the underlying OS is still certified Unix to the core. I can carry over all of my preferred shell scripts and workflow easily to macOS (and not to mention, GNU Emacs is there as well). Setting up a full toolkit of applications with Homebrew is not too different than using pacman or yay really.
 </p>
-<div id="outline-container-orgaee3b16" class="outline-2">
-<h2 id="orgaee3b16">The Myth of the Walled Garden</h2>
-<div class="outline-text-2" id="text-orgaee3b16">
+<div id="outline-container-org34591b1" class="outline-2">
+<h2 id="org34591b1">The Myth of the Walled Garden</h2>
+<div class="outline-text-2" id="text-org34591b1">
 <p>
 The biggest misconception about macOS from the outside is that it feels like Windows. It does not. Because macOS is built on a certified Unix core, the muscle memory you develop on a Linux terminal transfers almost seamlessly. 
 </p>
@@ -66,35 +66,35 @@ Using Homebrew as a package manager bridges the gap so entirely that managing yo
 </p>
 </div>
 </div>
-<div id="outline-container-org60e19e9" class="outline-2">
-<h2 id="org60e19e9">Relinquishing the Fight</h2>
-<div class="outline-text-2" id="text-org60e19e9">
+<div id="outline-container-org3af95e5" class="outline-2">
+<h2 id="org3af95e5">Relinquishing the Fight</h2>
+<div class="outline-text-2" id="text-org3af95e5">
 <p>
 Linux, especially power-user friendly distros, is definitely unmatched for learning how an OS works. I love being able to tinker, as this is a delight and privilege that you get as a Linux user. The continuous maintenance can be challenging at times, or can conflict with conventional living sadly. 
 </p>
 
-<pre class="example" id="org13e1701">
-+------------------------------------------------------------+
-|                  THE PRODUCTIVITY SPECTRUM                 |
-+------------------------------------------------------------+
-|                     Arch Linux Workspace                   |
-|                 - Infinite UI "Ricing" Freedom             |
-|                 - Continuous System Maintenance            |
-|                 - Learning Inner OS Functions              |
-+------------------------------------------------------------+
-|              Outcome: Endless Tinkering Delight            |
-+------------------------------------------------------------+
-                              ||
-                              ||
-                              \/
-+------------------------------------------------------------+
-|                       macOS Workspace                      |
-|                     - Zero-Friction Flow                   |
-|                     - Rock-Solid Basis                     |
-|                     - Out-of-the-Way UI                    |
-+------------------------------------------------------------+
-|                    Outcome: Productivity                   |
-+------------------------------------------------------------+
+<pre class="example" id="org891e918">
++-----------------------------------+
+|     THE PRODUCTIVITY SPECTRUM     |
++-----------------------------------+
+|        Arch Linux Workspace       |
+|   - Infinite UI "Ricing" Freedom  |
+|   - Continuous Maintenance        |
+|   - Learning Inner OS Functions   |
++-----------------------------------+
+| Outcome: Endless Tinkering Delight|
++-----------------------------------+
+                 ||
+                 ||
+                 \/
++-----------------------------------+
+|          macOS Workspace          |
+|   - Zero-Friction Flow            |
+|   - Rock-Solid Basis              |
+|   - Out-of-the-Way UI             |
++-----------------------------------+
+|       Outcome: Productivity       |
++-----------------------------------+
 </pre>
 
 <p>
@@ -106,9 +106,9 @@ I think that another thing I have always really commended Apple on is that they 
 </p>
 </div>
 </div>
-<div id="outline-container-orge4e5770" class="outline-2">
-<h2 id="orge4e5770">The Gaming Laptop Dilemma</h2>
-<div class="outline-text-2" id="text-orge4e5770">
+<div id="outline-container-org3292701" class="outline-2">
+<h2 id="org3292701">The Gaming Laptop Dilemma</h2>
+<div class="outline-text-2" id="text-org3292701">
 <p>
 I find that lugging around a gaming laptop (that came with faulty Windows 11) is not exactly the way to go if you want optimized workflow and ease of use. The gaming laptop dilemma is that it is less of a laptop and less of a gaming device. Even in 2026, gaming laptops can be redundant. I do like the hardware in my ASUS, but it is entirely unnecessary as I don't even game all that often on here, being the owner of multiple handheld devices.
 </p>
@@ -117,7 +117,7 @@ I find that lugging around a gaming laptop (that came with faulty Windows 11) is
 Something that I really prefer in a portable workflow is a lightweight setup. Optimal workflow looks like using a Macbook and an iPad via Sidecar, and then putting both devices back in the backpack as if it was nothing. 
 </p>
 
-<pre class="example" id="org633a98a">
+<pre class="example" id="org1837555">
 +-----------------------------------+
 |            MACBOOK NEO            |
 |        (Primary Workspace)        |
@@ -142,9 +142,9 @@ Additionally, these devices together in my backpack do not weigh nearly as much 
 </p>
 </div>
 </div>
-<div id="outline-container-orgfc4a77e" class="outline-2">
-<h2 id="orgfc4a77e">Best of Both Worlds</h2>
-<div class="outline-text-2" id="text-orgfc4a77e">
+<div id="outline-container-org232d727" class="outline-2">
+<h2 id="org232d727">Best of Both Worlds</h2>
+<div class="outline-text-2" id="text-org232d727">
 <p>
 Commending Apple and macOS is not a surrender of Linux as an identity. I think that my desktop (or at this point, my gaming laptop) is a fun, open sandbox for customization, tinkering, and experimentation. When I step away from this machine, I enjoy the ability to be mobile and ready to go. 
 </p>
@@ -220,9 +220,9 @@ Prison Pinochle is a strong-hand variant of double-deck Pinochle (80 cards, shav
 <p>
 4-player: Partners Pinochle, each player dealt 20 cards. More lightweight and fun; luck of the deal is a factor.
 </p>
-<div id="outline-container-orgb55e30b" class="outline-2">
-<h2 id="orgb55e30b">Tricks</h2>
-<div class="outline-text-2" id="text-orgb55e30b">
+<div id="outline-container-org96c2ce0" class="outline-2">
+<h2 id="org96c2ce0">Tricks</h2>
+<div class="outline-text-2" id="text-org96c2ce0">
 <p>
 Each card has a simplified point value:
 </p>
@@ -279,9 +279,9 @@ Each card has a simplified point value:
 </p>
 </div>
 </div>
-<div id="outline-container-org501b4a7" class="outline-2">
-<h2 id="org501b4a7">Meld</h2>
-<div class="outline-text-2" id="text-org501b4a7">
+<div id="outline-container-org4959131" class="outline-2">
+<h2 id="org4959131">Meld</h2>
+<div class="outline-text-2" id="text-org4959131">
 <p>
 Meld scores are simplified to emphasize strong hands. Note: 1 ≤ N ≤ 4.
 </p>
@@ -328,9 +328,9 @@ Meld scores are simplified to emphasize strong hands. Note: 1 ≤ N ≤ 4.
 </p>
 </div>
 </div>
-<div id="outline-container-org53669e5" class="outline-2">
-<h2 id="org53669e5">Bidding</h2>
-<div class="outline-text-2" id="text-org53669e5">
+<div id="outline-container-org4ee3792" class="outline-2">
+<h2 id="org4ee3792">Bidding</h2>
+<div class="outline-text-2" id="text-org4ee3792">
 <ul class="org-ul">
 <li>Only strong hands should bid</li>
 <li>Typical requirements: 25–40 expected trick points; 20+ meld</li>
@@ -338,9 +338,9 @@ Meld scores are simplified to emphasize strong hands. Note: 1 ≤ N ≤ 4.
 </ul>
 </div>
 </div>
-<div id="outline-container-org32fb013" class="outline-2">
-<h2 id="org32fb013">Strategy</h2>
-<div class="outline-text-2" id="text-org32fb013">
+<div id="outline-container-org7e71c7a" class="outline-2">
+<h2 id="org7e71c7a">Strategy</h2>
+<div class="outline-text-2" id="text-org7e71c7a">
 <ul class="org-ul">
 <li>Control of trump is crucial for winning tricks</li>
 <li>Meld combos — especially runs and aces around — are critical for reaching minimum</li>
@@ -384,49 +384,49 @@ Well, I figured that this was a thought that was on my mind. I've got time to po
   <content type="html"><![CDATA[<p>
 Life as a full-time student is real busy. Not to mention work and all the other fun stuff as a non-traditional scholar (I am not out of high school or doing this for my parents or at all in early adulthood). Being a career academic is non-conventional, but that is really what keeps me going in this struggle. (School should not be a business or a means to make money, but should instead be to gather knowledge and bring a collective of intelligent minds together&#x2026; If only, if only.)
 </p>
-<div id="outline-container-org5a6ec30" class="outline-2">
-<h2 id="org5a6ec30">web game project</h2>
-<div class="outline-text-2" id="text-org5a6ec30">
+<div id="outline-container-orge1f67bd" class="outline-2">
+<h2 id="orge1f67bd">web game project</h2>
+<div class="outline-text-2" id="text-orge1f67bd">
 <p>
 I am in the progress of making a barebones, simple webgame. This will be, perhaps, adapted into a much bigger project. I really like tactical, turn-based games, and I really enjoy battletech and other older minis games. So, I really look forward to building an RPG that is multi-player, but not necessarily on a global/wide scale. I want to incorporate some of the graphics from smaller programs into this game. I might be expanding currently existing projects in order to generate graphics more effectively for the game. Procedural generation will play a role in this, for sure.
 </p>
 </div>
 </div>
-<div id="outline-container-org9d2e4c8" class="outline-2">
-<h2 id="org9d2e4c8">emacs config (again) uploaded to github</h2>
-<div class="outline-text-2" id="text-org9d2e4c8">
+<div id="outline-container-org7d1247d" class="outline-2">
+<h2 id="org7d1247d">emacs config (again) uploaded to github</h2>
+<div class="outline-text-2" id="text-org7d1247d">
 <p>
 I uploaded my emacs config, again. I just moved everything to <code>~/.emacs.d</code> and used <code>.gitignore</code> rather than have to manually update a separate repo. Trying to keep up my gitfoo. I might even run a git server here, for some stuff if projects get big enough and need to just be legitimized, personal hosted or whatever. <a href="https://github.com/andrewmetzner/my-emacs-config">new repo here</a> 
 </p>
 </div>
 </div>
-<div id="outline-container-org764aecb" class="outline-2">
-<h2 id="org764aecb">image board project</h2>
-<div class="outline-text-2" id="text-org764aecb">
+<div id="outline-container-orgcaed01d" class="outline-2">
+<h2 id="orgcaed01d">image board project</h2>
+<div class="outline-text-2" id="text-orgcaed01d">
 <p>
 this might not be touched until Summer. I do want to do imageboard software, expanding on the textboard software I already wrote. Maybe I'll do it in a different language this time, who knows.
 </p>
 </div>
 </div>
-<div id="outline-container-orgdc0e41f" class="outline-2">
-<h2 id="orgdc0e41f">ongoing maintenance</h2>
-<div class="outline-text-2" id="text-orgdc0e41f">
+<div id="outline-container-org012e82a" class="outline-2">
+<h2 id="org012e82a">ongoing maintenance</h2>
+<div class="outline-text-2" id="text-org012e82a">
 <p>
 I want to expand the site, and add to the databases and resources. It is a work in progress, and not necessarily a priority right now. I would love to add more games/board games to the database, as I've been playing cards more (poker, mainly).
 </p>
 </div>
 </div>
-<div id="outline-container-org6701f2b" class="outline-2">
-<h2 id="org6701f2b">might go crazy if i don't do more 8-bit music but will be awhile for that, would love to get some hardware for music too</h2>
-<div class="outline-text-2" id="text-org6701f2b">
+<div id="outline-container-org226eb0e" class="outline-2">
+<h2 id="org226eb0e">might go crazy if i don't do more 8-bit music but will be awhile for that, would love to get some hardware for music too</h2>
+<div class="outline-text-2" id="text-org226eb0e">
 <p>
 speaks for itself. I don't know if this is going to be a reality anytime soon. Ambient tunes and stuff to relate to the game project seem more do-able.
 </p>
 </div>
 </div>
-<div id="outline-container-orgc88a7df" class="outline-2">
-<h2 id="orgc88a7df">real life and meditation are going great</h2>
-<div class="outline-text-2" id="text-orgc88a7df">
+<div id="outline-container-org9936e78" class="outline-2">
+<h2 id="org9936e78">real life and meditation are going great</h2>
+<div class="outline-text-2" id="text-org9936e78">
 <p>
 I meditate when I can, which should really be everyday. It is a practice.
 </p>
