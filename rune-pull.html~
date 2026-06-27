@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anglo-Saxon Futhorc — Rune Pull</title>
+  <title>Rune Pull</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -87,14 +87,17 @@
     }
 
     #results {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 1.5rem;
       max-width: 1100px;
       margin: 0 auto;
     }
 
     .rune-card {
+      flex: 0 0 280px;
+      max-width: 100%;
       background: #211c14;
       border: 1px solid #3a3220;
       border-radius: 6px;
