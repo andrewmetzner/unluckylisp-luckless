@@ -173,16 +173,16 @@
 <body>
 
   <header>
-    <h1>ᚠᚢᚦᚩᚱᚳ</h1>
-    <p>Anglo-Saxon Futhorc &mdash; Daily Rune Pull</p>
+    <h1>Rune Bag</h1>
+    <p>Daily Rune Pull</p>
   </header>
 
   <div class="controls">
     <label for="count">Runes to draw:</label>
     <select id="count">
-      <option value="1">1</option>
+      <option value="1" selected>1</option>
       <option value="2">2</option>
-      <option value="3" selected>3</option>
+      <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5</option>
       <option value="6">6</option>
@@ -257,7 +257,7 @@
             <div class="rune-glyph">${r.glyph}</div>
             <div class="rune-meta">
               <div class="rune-name">${r.name}</div>
-              <div class="rune-unicode">${r.unicode}</div>
+              <!-- ><div class="rune-unicode">${r.unicode}</div>-->
             </div>
           </div>
           ${r.desc ? `<div class="rune-desc">${r.desc}</div>` : ''}
