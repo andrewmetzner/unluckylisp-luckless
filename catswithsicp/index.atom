@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>cats with sicp</title>
   <link href="https://unluckylisp.com/catswithsicp/"/>
-  <updated>2026-06-16T21:28:11Z</updated>
+  <updated>2026-06-27T14:55:08Z</updated>
   <entry>
     <title>iluvsicpmeowwwww.jpg</title>
     <link href="https://unluckylisp.com/catswithsicp/image/iluvsicpmeowwwww.jpg"/>
     <id>https://unluckylisp.com/catswithsicp/image/iluvsicpmeowwwww.jpg</id>
-    <updated>2026-05-13T20:19:07Z</updated>
+    <updated>2026-06-21T22:28:14Z</updated>
     <content type="html"><![CDATA[<img src="https://unluckylisp.com/catswithsicp/image/iluvsicpmeowwwww.jpg">]]></content>
   </entry>
   <entry>
     <title>flowa2.jpg</title>
     <link href="https://unluckylisp.com/catswithsicp/image/flowa2.jpg"/>
     <id>https://unluckylisp.com/catswithsicp/image/flowa2.jpg</id>
-    <updated>2026-05-13T20:19:07Z</updated>
+    <updated>2026-06-21T22:28:14Z</updated>
     <content type="html"><![CDATA[<img src="https://unluckylisp.com/catswithsicp/image/flowa2.jpg">]]></content>
   </entry>
   <entry>
     <title>flowa1.jpg</title>
     <link href="https://unluckylisp.com/catswithsicp/image/flowa1.jpg"/>
     <id>https://unluckylisp.com/catswithsicp/image/flowa1.jpg</id>
-    <updated>2026-05-13T20:19:07Z</updated>
+    <updated>2026-06-21T22:28:14Z</updated>
     <content type="html"><![CDATA[<img src="https://unluckylisp.com/catswithsicp/image/flowa1.jpg">]]></content>
   </entry>
 </feed>
